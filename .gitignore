@@ -1,0 +1,4 @@
+node_modules
+summaries
+*.log
+*.hdt.index

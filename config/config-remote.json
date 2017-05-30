@@ -1,0 +1,79 @@
+{
+  "title": "Geo Project",
+  "baseURL": "http://example.org/",
+  "datasources": {
+
+    "boundaries-counties": {
+      "title": "Boundaries -- counties",
+      "type": "TurtleDatasource",
+      "settings": {
+        "file": "./data/2016-11-16-county.ttl"
+      }
+    },
+    "boundaries-electoral-divisions": {
+      "title": "Boundaries -- electoral divisioins",
+      "type": "TurtleDatasource",
+      "settings": {
+        "file": "./data/2016-11-16-ed.ttl"
+      }
+    },
+    "Greek-Administrative-Geography-Dataset": {
+      "tittle": "Greek Administrative Geography Dataset",
+      "type": "TurtleDatasource",
+      "settings": {
+        "file": "./data/gag.ttl"
+      }
+    },
+
+    "CORINE-Land-Use/Land-Cover-Dataset": {
+      "tittle": "CORINE Land Use/Land Cover Dataset",
+      "type": "TurtleDatasource",
+      "settings": {
+        "file": "./data/corine.ttl"
+      }
+    },
+
+    "LinkedGeoData-Dataset": {
+      "tittle": "LinkedGeoData Dataset",
+      "type": "TurtleDatasource",
+      "settings": {
+        "file": "./data/linkedgeodata.ttl"
+      }
+    },
+    "GeoNames-Dataset": {
+      "tittle": "GeoNames Dataset",
+      "type": "TurtleDatasource",
+      "settings": {
+        "file": "./data/geonames.ttl"
+      }
+    },
+    "DBPedia-Dataset": {
+      "tittle": "DBPedia Dataset",
+      "type": "TurtleDatasource",
+      "settings": {
+        "file": "./data/dbpedia.ttl"
+      }
+    },
+    "Hotspots-Dataset": {
+      "tittle": "Hotspots Dataset",
+      "type": "TurtleDatasource",
+      "settings": {
+        "file": "./data/hotspot.ttl"
+      }
+    }
+
+  },
+  "prefixes": {
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dc": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "dbpedia": "http://dbpedia.org/resource/",
+    "dbpedia-owl": "http://dbpedia.org/ontology/",
+    "dbpprop": "http://dbpedia.org/property/",
+    "hydra": "http://www.w3.org/ns/hydra/core#",
+    "void": "http://rdfs.org/ns/void#",
+    "geo": "http://www.opengis.net/ont/geosparql#"
+  }
+}

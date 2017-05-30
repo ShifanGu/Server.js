@@ -1,0 +1,923 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9c4b1cab-7c94-4955-81d3-35fbc24bba95" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/favicon.ico" afterPath="$PROJECT_DIR$/assets/favicon.ico" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/certs/localhost-client.p12" afterPath="$PROJECT_DIR$/config/certs/localhost-client.p12" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/assets/test-blank.hdt" afterPath="$PROJECT_DIR$/test/assets/test-blank.hdt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.eslintrc" afterPath="$PROJECT_DIR$/.eslintrc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitlab-ci.yml" afterPath="$PROJECT_DIR$/.gitlab-ci.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.travis.yml" afterPath="$PROJECT_DIR$/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AUTHORS" afterPath="$PROJECT_DIR$/AUTHORS" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dockerfile" afterPath="$PROJECT_DIR$/Dockerfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LICENSE.txt" afterPath="$PROJECT_DIR$/LICENSE.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/logo.svg" afterPath="$PROJECT_DIR$/assets/logo.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/style.css" afterPath="$PROJECT_DIR$/assets/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/.eslintrc" afterPath="$PROJECT_DIR$/bin/.eslintrc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/certs/localhost-ca.crt" afterPath="$PROJECT_DIR$/config/certs/localhost-ca.crt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/certs/localhost-ca.key" afterPath="$PROJECT_DIR$/config/certs/localhost-ca.key" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/certs/localhost-client.crt" afterPath="$PROJECT_DIR$/config/certs/localhost-client.crt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/certs/localhost-client.key" afterPath="$PROJECT_DIR$/config/certs/localhost-client.key" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/certs/localhost-server.crt" afterPath="$PROJECT_DIR$/config/certs/localhost-server.crt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/certs/localhost-server.key" afterPath="$PROJECT_DIR$/config/certs/localhost-server.key" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/certs/webid.cnf" afterPath="$PROJECT_DIR$/config/certs/webid.cnf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/certs/webid.ttl" afterPath="$PROJECT_DIR$/config/certs/webid.ttl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/config-composite.json" afterPath="$PROJECT_DIR$/config/config-composite.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/config-defaults.json" afterPath="$PROJECT_DIR$/config/config-defaults.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/config-example-advanced.json" afterPath="$PROJECT_DIR$/config/config-example-advanced.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/config-example-memento.json" afterPath="$PROJECT_DIR$/config/config-example-memento.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/config-example.json" afterPath="$PROJECT_DIR$/config/config-example.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/LinkedDataFragmentsServer.js" afterPath="$PROJECT_DIR$/lib/LinkedDataFragmentsServer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Util.js" afterPath="$PROJECT_DIR$/lib/Util.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/controllers/AssetsController.js" afterPath="$PROJECT_DIR$/lib/controllers/AssetsController.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/controllers/Controller.js" afterPath="$PROJECT_DIR$/lib/controllers/Controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/controllers/DereferenceController.js" afterPath="$PROJECT_DIR$/lib/controllers/DereferenceController.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/controllers/ErrorController.js" afterPath="$PROJECT_DIR$/lib/controllers/ErrorController.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/controllers/MementoControllerExtension.js" afterPath="$PROJECT_DIR$/lib/controllers/MementoControllerExtension.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/controllers/NotFoundController.js" afterPath="$PROJECT_DIR$/lib/controllers/NotFoundController.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/controllers/SummaryController.js" afterPath="$PROJECT_DIR$/lib/controllers/SummaryController.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/controllers/TimegateController.js" afterPath="$PROJECT_DIR$/lib/controllers/TimegateController.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/controllers/TriplePatternFragmentsController.js" afterPath="$PROJECT_DIR$/lib/controllers/TriplePatternFragmentsController.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/controllers/WebIDControllerExtension.js" afterPath="$PROJECT_DIR$/lib/controllers/WebIDControllerExtension.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/datasources/CompositeDatasource.js" afterPath="$PROJECT_DIR$/lib/datasources/CompositeDatasource.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/datasources/Datasource.js" afterPath="$PROJECT_DIR$/lib/datasources/Datasource.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/datasources/EmptyDatasource.js" afterPath="$PROJECT_DIR$/lib/datasources/EmptyDatasource.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/datasources/ExternalHdtDatasource.js" afterPath="$PROJECT_DIR$/lib/datasources/ExternalHdtDatasource.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/datasources/HdtDatasource.js" afterPath="$PROJECT_DIR$/lib/datasources/HdtDatasource.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/datasources/IndexDatasource.js" afterPath="$PROJECT_DIR$/lib/datasources/IndexDatasource.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/datasources/JsonLdDatasource.js" afterPath="$PROJECT_DIR$/lib/datasources/JsonLdDatasource.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/datasources/MemoryDatasource.js" afterPath="$PROJECT_DIR$/lib/datasources/MemoryDatasource.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/datasources/SparqlDatasource.js" afterPath="$PROJECT_DIR$/lib/datasources/SparqlDatasource.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/datasources/TurtleDatasource.js" afterPath="$PROJECT_DIR$/lib/datasources/TurtleDatasource.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/routers/DatasourceRouter.js" afterPath="$PROJECT_DIR$/lib/routers/DatasourceRouter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/routers/PageRouter.js" afterPath="$PROJECT_DIR$/lib/routers/PageRouter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/routers/TriplePatternRouter.js" afterPath="$PROJECT_DIR$/lib/routers/TriplePatternRouter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/views/HtmlView.js" afterPath="$PROJECT_DIR$/lib/views/HtmlView.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/views/RdfView.js" afterPath="$PROJECT_DIR$/lib/views/RdfView.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/views/View.js" afterPath="$PROJECT_DIR$/lib/views/View.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/views/ViewCollection.js" afterPath="$PROJECT_DIR$/lib/views/ViewCollection.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/views/base.html" afterPath="$PROJECT_DIR$/lib/views/base.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/views/error/ErrorHtmlView.js" afterPath="$PROJECT_DIR$/lib/views/error/ErrorHtmlView.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/views/error/ErrorRdfView.js" afterPath="$PROJECT_DIR$/lib/views/error/ErrorRdfView.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/views/error/error.html" afterPath="$PROJECT_DIR$/lib/views/error/error.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/views/forbidden/ForbiddenHtmlView.js" afterPath="$PROJECT_DIR$/lib/views/forbidden/ForbiddenHtmlView.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/views/forbidden/forbidden.html" afterPath="$PROJECT_DIR$/lib/views/forbidden/forbidden.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/views/memento/TriplePatternFragmentsHtmlView-Memento.js" afterPath="$PROJECT_DIR$/lib/views/memento/TriplePatternFragmentsHtmlView-Memento.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/views/memento/memento-details.html" afterPath="$PROJECT_DIR$/lib/views/memento/memento-details.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/views/notfound/NotFoundHtmlView.js" afterPath="$PROJECT_DIR$/lib/views/notfound/NotFoundHtmlView.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/views/notfound/NotFoundRdfView.js" afterPath="$PROJECT_DIR$/lib/views/notfound/NotFoundRdfView.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/views/notfound/notfound.html" afterPath="$PROJECT_DIR$/lib/views/notfound/notfound.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/views/summary/SummaryRdfView.js" afterPath="$PROJECT_DIR$/lib/views/summary/SummaryRdfView.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/views/summary/TriplePattternFragmentsHtmlView-Summary.js" afterPath="$PROJECT_DIR$/lib/views/summary/TriplePattternFragmentsHtmlView-Summary.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/views/summary/TriplePattternFragmentsRdfView-Summary.js" afterPath="$PROJECT_DIR$/lib/views/summary/TriplePattternFragmentsRdfView-Summary.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/views/summary/summary-link.html" afterPath="$PROJECT_DIR$/lib/views/summary/summary-link.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/views/triplepatternfragments/TriplePatternFragmentsHtmlView.js" afterPath="$PROJECT_DIR$/lib/views/triplepatternfragments/TriplePatternFragmentsHtmlView.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/views/triplepatternfragments/TriplePatternFragmentsRdfView.js" afterPath="$PROJECT_DIR$/lib/views/triplepatternfragments/TriplePatternFragmentsRdfView.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/views/triplepatternfragments/datasource.html" afterPath="$PROJECT_DIR$/lib/views/triplepatternfragments/datasource.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/views/triplepatternfragments/fragment.html" afterPath="$PROJECT_DIR$/lib/views/triplepatternfragments/fragment.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/views/triplepatternfragments/index.html" afterPath="$PROJECT_DIR$/lib/views/triplepatternfragments/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module.js" afterPath="$PROJECT_DIR$/module.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/.eslintrc" afterPath="$PROJECT_DIR$/test/.eslintrc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/LinkedDataFragmentsServer-test.js" afterPath="$PROJECT_DIR$/test/LinkedDataFragmentsServer-test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/assets/basic-fragment-metadata-last.jsonld" afterPath="$PROJECT_DIR$/test/assets/basic-fragment-metadata-last.jsonld" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/assets/basic-fragment-metadata-last.nq" afterPath="$PROJECT_DIR$/test/assets/basic-fragment-metadata-last.nq" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/assets/basic-fragment-metadata-last.nt" afterPath="$PROJECT_DIR$/test/assets/basic-fragment-metadata-last.nt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/assets/basic-fragment-metadata-last.trig" afterPath="$PROJECT_DIR$/test/assets/basic-fragment-metadata-last.trig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/assets/basic-fragment-metadata-last.ttl" afterPath="$PROJECT_DIR$/test/assets/basic-fragment-metadata-last.ttl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/assets/basic-fragment.jsonld" afterPath="$PROJECT_DIR$/test/assets/basic-fragment.jsonld" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/assets/basic-fragment.nq" afterPath="$PROJECT_DIR$/test/assets/basic-fragment.nq" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/assets/basic-fragment.nt" afterPath="$PROJECT_DIR$/test/assets/basic-fragment.nt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/assets/basic-fragment.trig" afterPath="$PROJECT_DIR$/test/assets/basic-fragment.trig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/assets/basic-fragment.ttl" afterPath="$PROJECT_DIR$/test/assets/basic-fragment.ttl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/assets/empty-fragment.jsonld" afterPath="$PROJECT_DIR$/test/assets/empty-fragment.jsonld" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/assets/empty-fragment.nq" afterPath="$PROJECT_DIR$/test/assets/empty-fragment.nq" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/assets/empty-fragment.nt" afterPath="$PROJECT_DIR$/test/assets/empty-fragment.nt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/assets/empty-fragment.trig" afterPath="$PROJECT_DIR$/test/assets/empty-fragment.trig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/assets/empty-fragment.ttl" afterPath="$PROJECT_DIR$/test/assets/empty-fragment.ttl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/assets/sparql-triples-response.ttl" afterPath="$PROJECT_DIR$/test/assets/sparql-triples-response.ttl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/assets/summary.nt" afterPath="$PROJECT_DIR$/test/assets/summary.nt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/assets/summary.ttl" afterPath="$PROJECT_DIR$/test/assets/summary.ttl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/assets/test-blank.ttl" afterPath="$PROJECT_DIR$/test/assets/test-blank.ttl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/assets/test.jsonld" afterPath="$PROJECT_DIR$/test/assets/test.jsonld" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/controllers/AssetsController-test.js" afterPath="$PROJECT_DIR$/test/controllers/AssetsController-test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/controllers/Controller-test.js" afterPath="$PROJECT_DIR$/test/controllers/Controller-test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/controllers/DereferenceController-test.js" afterPath="$PROJECT_DIR$/test/controllers/DereferenceController-test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/controllers/DummyServer.js" afterPath="$PROJECT_DIR$/test/controllers/DummyServer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/controllers/NotFoundController-test.js" afterPath="$PROJECT_DIR$/test/controllers/NotFoundController-test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/controllers/SummaryController-test.js" afterPath="$PROJECT_DIR$/test/controllers/SummaryController-test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/controllers/TriplePatternFragmentsController-test.js" afterPath="$PROJECT_DIR$/test/controllers/TriplePatternFragmentsController-test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/datasources/CompositeDatasource-test.js" afterPath="$PROJECT_DIR$/test/datasources/CompositeDatasource-test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/datasources/Datasource-test.js" afterPath="$PROJECT_DIR$/test/datasources/Datasource-test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/datasources/HdtDatasource-test.js" afterPath="$PROJECT_DIR$/test/datasources/HdtDatasource-test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/datasources/JsonLdDatasource-test.js" afterPath="$PROJECT_DIR$/test/datasources/JsonLdDatasource-test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/datasources/SparqlDatasource-test.js" afterPath="$PROJECT_DIR$/test/datasources/SparqlDatasource-test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/datasources/TurtleDatasource-test.js" afterPath="$PROJECT_DIR$/test/datasources/TurtleDatasource-test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/mocha.opts" afterPath="$PROJECT_DIR$/test/mocha.opts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/routers/DatasourceRouter-test.js" afterPath="$PROJECT_DIR$/test/routers/DatasourceRouter-test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/routers/PageRouter-test.js" afterPath="$PROJECT_DIR$/test/routers/PageRouter-test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/routers/TriplePatternRouter-test.js" afterPath="$PROJECT_DIR$/test/routers/TriplePatternRouter-test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/test-setup.js" afterPath="$PROJECT_DIR$/test/test-setup.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/views/View-test.js" afterPath="$PROJECT_DIR$/test/views/View-test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/views/ViewCollection-test.js" afterPath="$PROJECT_DIR$/test/views/ViewCollection-test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/views/triplepatternfragments/TriplePatternFragmentsRdfView-test.js" afterPath="$PROJECT_DIR$/test/views/triplepatternfragments/TriplePatternFragmentsRdfView-test.js" />
+    </list>
+    <ignored path="Server.js.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="Server.js" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="2016-11-16-county.ttl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/2016-11-16-county.ttl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config-shifan.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/config-shifan.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.7356948">
+              <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ldf-server" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bin/ldf-server">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2016-11-16-ed.ttl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/2016-11-16-ed.ttl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="333" column="1102" selection-start-line="333" selection-start-column="1102" selection-end-line="333" selection-end-column="1102" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TurtleDatasource.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/datasources/TurtleDatasource.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TriplePatternRouter.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/routers/TriplePatternRouter.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/lib/LinkedDataFragmentsServer.js" />
+        <option value="$PROJECT_DIR$/bin/ldf-server" />
+        <option value="$PROJECT_DIR$/lib/datasources/HdtDatasource.js" />
+        <option value="$PROJECT_DIR$/data/mapping.ttl" />
+        <option value="$PROJECT_DIR$/data/2016-11-29-pizza.ttl" />
+        <option value="$PROJECT_DIR$/lib/datasources/TurtleDatasource.js" />
+        <option value="$PROJECT_DIR$/config/config-shifan.json" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="706" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Server.js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Server.js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Server.js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Server.js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Server.js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Server.js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Server.js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Server.js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Server.js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="routers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Server.js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Server.js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="datasources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Server.js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Server.js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Server.js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Server.js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Server.js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Server.js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Server.js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Server.js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+    <property name="SearchEverywhereHistoryKey" value="mime&#9;FILE&#9;file:///Users/momoca/Documents/Dissertation/Server.js/node_modules/.bin/mime&#10;rdf&#9;null&#9;null" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/data" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/config" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Node.js.ldf-server">
+    <configuration default="false" name="ldf-server" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="/usr/local/bin/node" path-to-js-file="ldf-server" application-parameters="../config/config-example.json 5000 2" working-dir="$PROJECT_DIR$/bin">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSRemoteDebug" factoryName="Node.js Remote Debug">
+      <node-js-remote-debug />
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Node.js.ldf-server" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Node.js.ldf-server" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9c4b1cab-7c94-4955-81d3-35fbc24bba95" name="Default" comment="" />
+      <created>1478807729891</created>
+      <option name="number" value="Default" />
+      <updated>1478807729891</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1280" height="706" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26767275" sideWeight="0.49033818" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2494043" sideWeight="0.50966185" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2494043" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3198052" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32792208" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39935064" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/bin/ldf-server</url>
+          <line>117</line>
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/config/config-shifan.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/ldf-server">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/2016-11-16-ed.ttl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="333" column="1102" selection-start-line="333" selection-start-column="1102" selection-end-line="333" selection-end-column="1102" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/datasources/TurtleDatasource.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/routers/TriplePatternRouter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/LinkedDataFragmentsServer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/controllers/WebIDControllerExtension.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AUTHORS">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitlab-ci.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.eslintrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Util.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/generate-summary">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/views/RdfView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/controllers/AssetsController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/controllers/DereferenceController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/controllers/ErrorController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/controllers/MementoControllerExtension.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/views/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/controllers/TriplePatternFragmentsController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/controllers/Controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/views/ViewCollection.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/views/View.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/routers/DatasourceRouter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/LinkedDataFragmentsServer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="40" column="53" selection-start-line="40" selection-start-column="53" selection-end-line="40" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/2016-11-16-ed.hdt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/.bin/mime">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/datasources/ExternalHdtDatasource.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/datasources/EmptyDatasource.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/datasources/CompositeDatasource.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/datasources/SparqlDatasource.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/datasources/MemoryDatasource.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/datasources/JsonLdDatasource.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/datasources/IndexDatasource.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/datasources/HdtDatasource.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="49" column="28" selection-start-line="49" selection-start-column="28" selection-end-line="49" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/config-composite.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/config-defaults.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/config-example.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/config-example-advanced.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="4.9583335">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/config-example-memento.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/datasources/Datasource.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/2016-11-16-county.ttl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/2016-11-16-ed.ttl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="333" column="1102" selection-start-line="333" selection-start-column="1102" selection-end-line="333" selection-end-column="1102" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/datasources/TurtleDatasource.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/routers/TriplePatternRouter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/ldf-server">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/config-shifan.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7356948">
+          <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
